@@ -2441,10 +2441,10 @@
 		(uuid "77830a16-92bd-4d64-9a33-28fb8020b255")
 	)
 	(junction
-		(at 144.78 96.52)
+		(at 142.24 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8def5721-2333-42fc-aff5-f76025c1c119")
+		(uuid "8743170a-569e-464e-9139-6198ddfcf027")
 	)
 	(junction
 		(at 189.23 106.68)
@@ -2457,6 +2457,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f987bfcb-e627-43bf-8977-d2136fbdf5f0")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e699cc-4d33-4ff2-afa1-340d844f5c7c")
 	)
 	(wire
 		(pts
@@ -2500,6 +2510,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 96.52) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5de571-3c45-4d67-8278-cbabd0459877")
+	)
+	(wire
+		(pts
 			(xy 201.93 50.8) (xy 201.93 63.5)
 		)
 		(stroke
@@ -2507,6 +2527,16 @@
 			(type default)
 		)
 		(uuid "7cdb8eff-e239-492a-9adf-0ba272dd09ba")
+	)
+	(wire
+		(pts
+			(xy 134.62 91.44) (xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99dc1160-12b8-48cf-ad90-5179fef8464a")
 	)
 	(wire
 		(pts
@@ -2530,6 +2560,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 91.44) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f878ab-a453-4ab0-b83d-7e27fc2c1d56")
+	)
+	(wire
+		(pts
 			(xy 201.93 43.18) (xy 205.74 43.18)
 		)
 		(stroke
@@ -2540,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 91.44) (xy 144.78 91.44)
+			(xy 139.7 91.44) (xy 142.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2560,13 +2600,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 144.78 96.52)
+			(xy 142.24 91.44) (xy 142.24 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee30894a-4a5f-454b-bca6-880c93128752")
+		(uuid "dd640fba-eb93-438f-8d93-9759e7e934d4")
 	)
 	(wire
 		(pts
@@ -3489,7 +3529,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 134.62 91.44 90)
+		(at 132.08 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3497,7 +3537,7 @@
 		(dnp no)
 		(uuid "2935154a-42ad-41b2-9b34-b7bc8cf9ec99")
 		(property "Reference" "SW4"
-			(at 124.46 91.44 90)
+			(at 121.92 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3546,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 124.46 93.98 90)
+			(at 121.92 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3555,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_REED_CT05-XXXX-J1"
-			(at 134.62 91.44 0)
+			(at 132.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 91.44 0)
+			(at 132.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3573,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 134.62 91.44 0)
+			(at 132.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,6 +4540,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4543,7 +4584,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 139.7 96.52 90)
+		(at 137.16 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4551,7 +4592,7 @@
 		(dnp no)
 		(uuid "95ea8640-fb6e-426e-81d7-065b85a3bf63")
 		(property "Reference" "BT1"
-			(at 139.7 100.33 90)
+			(at 137.16 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +4600,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 139.7 102.87 90)
+			(at 137.16 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +4608,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_2466_1xAAA"
-			(at 138.176 96.52 90)
+			(at 135.636 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.176 96.52 90)
+			(at 135.636 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4626,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 139.7 96.52 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
